@@ -5,6 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colégio Estadual Barbosa Ferraz - Lixo Tecnológico</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #004d40;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header .logo img {
+            width: 80px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #tela1, #sobre-colegio {
+            padding: 40px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        #tela1 h2, #sobre-colegio h2 {
+            text-align: center;
+            color: #2e7d32;
+        }
+
+        #tela1 p, #sobre-colegio p {
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        #tela1 img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 20px auto;
+        }
+
+        .info-colegio, .sobre-info {
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #004d40;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer a {
+            color: #f1f1f1;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -23,21 +110,19 @@
 
     <section id="tela1">
         <h2>O Que é Lixo Tecnológico?</h2>
-        <p>O lixo tecnológico é composto por equipamentos eletrônicos obsoletos ou quebrados. O descarte inadequado desses materiais pode causar sérios danos ao meio ambiente e à saúde humana, pois muitos desses itens contêm metais pesados e substâncias tóxicas.</p>
-        
-        <div class="info-colegio">
-            <h3>Sobre o Colégio Estadual Barbosa Ferraz</h3>
-            <p><strong>Endereço:</strong> Rua Exemplo, 123 - Centro, Cidade, Estado</p>
-            <p><strong>Telefone:</strong> (xx) xxxx-xxxx</p>
-            <p><strong>Contato:</strong> contato@colegiobarbosaferraz.edu.br</p>
-        </div>
+        <p>O lixo tecnológico, também conhecido como lixo eletrônico, refere-se a qualquer dispositivo eletrônico que se tornou obsoleto, quebrado ou inutilizável. Entre os principais itens que fazem parte desse tipo de lixo estão computadores antigos, celulares, baterias, televisores e outros equipamentos de tecnologia.</p>
 
+        <h3>Impactos Ambientais do Lixo Tecnológico</h3>
+        <p>O descarte inadequado desses materiais pode causar sérios danos ao meio ambiente. Muitos desses dispositivos contêm substâncias tóxicas, como mercúrio, chumbo e cadmio, que podem contaminar o solo e a água. Além disso, esses materiais não se decompõem facilmente, tornando-se um problema crescente de poluição.</p>
+
+        <h3>Como Evitar os Efeitos Negativos?</h3>
+        <p>O descarte correto do lixo tecnológico envolve encaminhá-lo para pontos de coleta e reciclagem especializados, que podem processá-lo de maneira segura, extraindo os materiais valiosos e reutilizáveis. Também é possível reaproveitar alguns componentes eletrônicos, como placas de circuito, monitores e baterias, em novos dispositivos ou projetos.</p>
+        
         <img src="lixo tecnologico.jpg" alt="Imagem de lixo tecnológico">
     </section>
 
-    <!-- Seção "Sobre" com mais informações sobre o Colégio -->
     <section id="sobre-colegio">
-        <h2>Sobre o Colégio</h2>
+        <h2>Sobre o Colégio Estadual Barbosa Ferraz</h2>
         <div class="sobre-info">
             <h3>História</h3>
             <p>Fundado em [ano de fundação], o Colégio Estadual Barbosa Ferraz tem como missão oferecer uma educação de qualidade, formando cidadãos críticos, éticos e preparados para os desafios do futuro. A escola tem se destacado na região por seu compromisso com a excelência acadêmica e sua forte atuação em projetos sociais.</p>
@@ -61,8 +146,12 @@
     </section>
 
     <footer>
+        <div class="info-colegio">
+            <p><strong>Endereço:</strong> Rua Exemplo, 123 - Centro, Cidade, Estado</p>
+            <p><strong>Telefone:</strong> (xx) xxxx-xxxx</p>
+            <p><strong>Contato:</strong> <a href="mailto:contato@colegiobarbosaferraz.edu.br">contato@colegiobarbosaferraz.edu.br</a></p>
+        </div>
         <p>© 2025 Colégio Estadual Barbosa Ferraz - Todos os direitos reservados.</p>
     </footer>
-
 </body>
 </html>
