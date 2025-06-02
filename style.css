@@ -131,6 +131,7 @@ section p {
     margin-left: 20px;
 }
 
+/* Rodapé */
 footer {
     background-color: #1c2833;
     color: #ecf0f1;
@@ -143,6 +144,14 @@ footer {
 
 footer p {
     font-size: 14px;
+}
+
+/* Imagens */
+#tela1 img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 30px auto;
 }
 
 /* Responsividade */
